@@ -10,7 +10,6 @@ Nesta simulação, nosso grupo representa a equipe responsável pelo desenvolvim
 
 ## Sumário
 
-- [Nome do aplicativo](#nome-do-aplicativo)
 - [Descrição](#descrição)
 - [Público-alvo](#público-alvo)
 - [Funcionalidades](#funcionalidades)
@@ -18,12 +17,6 @@ Nesta simulação, nosso grupo representa a equipe responsável pelo desenvolvim
 - [Requisitos técnicos](#requisitos-técnicos)
 - [Desenvolvedores](#desenvolvedores)
 - [Fontes](#fontes)
-
----
-
-## Nome do aplicativo
-
-**Netflix**
 
 ---
 
