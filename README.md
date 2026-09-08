@@ -1,5 +1,7 @@
 # Netflix
 
+![Logo da Netflix](images/Netflix-Logo%281%29.png)
+
 > **Projeto acadêmico de simulação de documentação do aplicativo Netflix.**
 
 Este repositório foi criado para uma atividade acadêmica sobre documentação de software utilizando **GitHub** e **Markdown**.
@@ -37,15 +39,15 @@ A plataforma pode ser utilizada em diferentes dispositivos compatíveis, como:
 
 ### Para que serve?
 
-O aplicativo Netflix é utilizado principalmente para consumir conteúdos de entretenimento sob demanda.
+O aplicativo Netflix é utilizado principalmente para consumir **conteúdos de entretenimento sob demanda**.
 
 Por meio dele, o usuário pode escolher **o que deseja assistir e quando deseja assistir**, sem depender de uma programação fixa de televisão.
 
 ### Quando deve ser utilizado?
 
-O aplicativo pode ser utilizado sempre que o assinante quiser acessar o catálogo da Netflix por meio de um dispositivo compatível e, para transmissões online, possuir conexão com a internet.
+O aplicativo pode ser utilizado sempre que o assinante quiser acessar o catálogo da Netflix por meio de um dispositivo compatível.
 
-Alguns conteúdos também podem ser baixados em dispositivos compatíveis para serem assistidos posteriormente sem conexão.
+Para transmissões por *streaming*, é necessária uma conexão com a internet. Alguns conteúdos também podem ser baixados em dispositivos compatíveis para serem assistidos posteriormente sem conexão.
 
 ---
 
@@ -85,13 +87,17 @@ As recomendações podem considerar fatores como:
 - Interações do usuário;
 - Preferências do perfil;
 - Características dos títulos;
-- Comportamento de outros usuários com interesses semelhantes.
+- Comportamentos de usuários com interesses semelhantes.
 
 ### Perfis
 
-Uma conta pode possuir diferentes perfis.
+Uma conta pode possuir diferentes perfis, permitindo uma experiência personalizada para cada usuário.
 
-Cada perfil pode apresentar sua própria experiência, incluindo:
+![Tela de perfis da Netflix](images/Perfis%281%29.jpg)
+
+*Exemplo da tela de seleção e gerenciamento de perfis.*
+
+Cada perfil pode possuir sua própria experiência, incluindo:
 
 - Recomendações;
 - Histórico de visualização;
@@ -103,9 +109,17 @@ Cada perfil pode apresentar sua própria experiência, incluindo:
 
 O recurso **Minha Lista** permite salvar títulos que o usuário pretende assistir posteriormente.
 
+![Minha Lista da Netflix](images/Minha_Lista%281%29.jpg)
+
+*Exemplo da funcionalidade Minha Lista.*
+
 ### Continuar assistindo
 
 A Netflix registra o progresso de reprodução para permitir que o usuário continue um filme ou episódio a partir do ponto em que parou.
+
+![Continuar assistindo](images/Continuar_assistindo%281%29.jpg)
+
+*Exemplo da funcionalidade Continuar assistindo e das recomendações personalizadas.*
 
 ### Downloads
 
@@ -118,7 +132,12 @@ Dependendo do título, o usuário pode selecionar diferentes opções de:
 - Áudio;
 - Idioma;
 - Legendas;
-- Legendas ocultas.
+- Legendas ocultas;
+- Audiodescrição, quando disponível.
+
+![Idiomas e legendas](images/Legendas_Idiomas%281%29.jpg)
+
+*Exemplo das opções de áudio e legendas disponíveis durante a reprodução.*
 
 ### Picture-in-Picture
 
@@ -132,78 +151,59 @@ A Netflix também disponibiliza jogos para dispositivos compatíveis como parte 
 
 ## Tecnologias utilizadas
 
-> **Observação:** a Netflix possui uma infraestrutura de grande escala e diferentes versões de seus aplicativos para diversos dispositivos. Portanto, as tecnologias apresentadas abaixo são tecnologias oficialmente documentadas pela Netflix em sua plataforma e engenharia e não significam que todas sejam utilizadas simultaneamente em todas as versões do aplicativo.
-
-### Node.js
-
-A Netflix documenta o uso de **Node.js** no desenvolvimento de aplicações e serviços relacionados às suas interfaces.
-
-`Node.js` permite executar código JavaScript fora do navegador e pode ser utilizado na construção de serviços que dão suporte às aplicações.
-
-### React
-
-A Netflix também documenta o uso de **React** na criação de interfaces de usuário.
-
-React permite construir interfaces utilizando componentes reutilizáveis.
-
-### RxJS
-
-A plataforma utiliza **RxJS** em aplicações relacionadas à interface.
-
-A biblioteca trabalha com o conceito de programação reativa e processamento de eventos assíncronos.
+> **Observação:** a Netflix possui uma infraestrutura de grande escala e diferentes versões de seus aplicativos para diversos dispositivos. As tecnologias abaixo são oficialmente documentadas pela engenharia da Netflix, mas isso não significa que todas sejam utilizadas simultaneamente em todas as versões do aplicativo.
 
 ### Java e JVM
 
-A engenharia da Netflix também utiliza tecnologias do ecossistema **Java/JVM** em diferentes serviços de sua infraestrutura.
+A engenharia da Netflix utiliza tecnologias do ecossistema **Java/JVM** em diferentes serviços de sua infraestrutura.
 
-### Cassandra
+![Java](images/Java_Logo.png)
 
-O **Apache Cassandra** é uma das tecnologias de banco de dados distribuído utilizadas pela Netflix.
+O Java é utilizado em serviços de backend e em sistemas distribuídos responsáveis por diferentes operações da plataforma.
 
-Esse tipo de banco de dados é adequado para aplicações que precisam trabalhar com grandes quantidades de informações e alta disponibilidade.
+### Apache Cassandra
+
+O **Apache Cassandra** é um banco de dados distribuído utilizado pela Netflix em aplicações críticas.
+
+![Apache Cassandra](images/Apache_Cassandra.png)
+
+A própria Netflix documenta o uso do Cassandra em sistemas relacionados a áreas como:
+
+- Membros;
+- Cobrança;
+- Recomendações;
+- Assinaturas.
+
+Sua arquitetura distribuída permite trabalhar com grandes volumes de dados e alta disponibilidade.
+
+### Apache Kafka
+
+O **Apache Kafka** é uma plataforma distribuída utilizada para processamento e transmissão de eventos entre diferentes sistemas.
+
+![Apache Kafka](images/Kafka_apache.png)
+
+A Netflix documenta o uso do Kafka em partes de sua infraestrutura para comunicação entre serviços e processamento de eventos.
 
 ### MySQL
 
-A Netflix também documenta a utilização de **MySQL** entre suas tecnologias de persistência de dados.
+O **MySQL** também aparece em sistemas e projetos documentados pela engenharia da Netflix.
 
-### Redis
+![MySQL](images/MySQL.png)
 
-O **Redis** é utilizado em partes da infraestrutura relacionadas ao armazenamento e acesso rápido a dados.
+É um sistema de gerenciamento de banco de dados relacional utilizado para armazenar e organizar informações estruturadas.
 
-### Amazon Web Services — AWS
+### Machine Learning
 
-A Netflix utiliza serviços de computação em nuvem da **Amazon Web Services (AWS)** em sua infraestrutura.
+A Netflix utiliza técnicas de **Machine Learning** em diferentes partes de sua plataforma, principalmente para personalização da experiência do usuário.
 
-A computação em nuvem permite que os sistemas sejam distribuídos e dimensionados de acordo com a demanda.
+Entre suas aplicações estão:
 
-### Netflix Open Connect
+- Recomendações de filmes e séries;
+- Personalização da página inicial;
+- Organização e classificação de conteúdos;
+- Identificação de conteúdos relevantes para cada perfil.
 
-A Netflix possui sua própria infraestrutura de distribuição de conteúdo chamada **Open Connect**.
-
-O Open Connect funciona como uma **CDN — Content Delivery Network** e ajuda a entregar os conteúdos da plataforma de forma eficiente aos usuários.
-
-De maneira simplificada:
-
-```text
-Usuário
-   |
-   v
-Aplicativo Netflix
-   |
-   v
-Serviços da Netflix
-   |
-   v
-Infraestrutura em nuvem
-   |
-   v
-Netflix Open Connect
-   |
-   v
-Reprodução do conteúdo
-```
-
-O Open Connect permite aproximar os conteúdos dos provedores de internet e, consequentemente, dos usuários que irão reproduzi-los.
+O objetivo é apresentar ao usuário títulos com maior probabilidade de corresponder aos seus interesses.
 
 ---
 
@@ -219,20 +219,20 @@ Para utilizar a versão mais recente do aplicativo Netflix em celulares e tablet
 - Dispositivo compatível;
 - Aplicativo Netflix;
 - Conta Netflix;
-- Conexão com a internet para streaming.
+- Conexão com a internet para *streaming*.
 
 Para realizar downloads, também é necessário espaço de armazenamento disponível.
 
 ### iPhone e iPad
 
-Para utilizar a versão mais recente do aplicativo Netflix:
+Para utilizar a versão mais recente do aplicativo Netflix, é necessário:
 
 - iOS 18 ou superior no iPhone; ou
 - iPadOS 18 ou superior no iPad;
 - Dispositivo compatível;
 - Aplicativo Netflix;
 - Conta Netflix;
-- Conexão com a internet para streaming.
+- Conexão com a internet para *streaming*.
 
 ### Outros dispositivos
 
@@ -267,11 +267,18 @@ Nesta **simulação acadêmica**, os integrantes abaixo representam a equipe res
 
 As informações apresentadas neste README foram pesquisadas em fontes oficiais relacionadas à Netflix:
 
-- **Netflix Help Center**
-- **Netflix Open Source Software Center**
-- **Netflix Technology Blog**
-- **Netflix Open Connect**
-- **About Netflix**
+- [Netflix](https://www.netflix.com/)
+- [About Netflix](https://about.netflix.com/)
+- [Netflix Help Center](https://help.netflix.com/)
+- [Netflix Technology Blog](https://netflixtechblog.com/)
+- [Netflix Open Source Software Center](https://netflix.github.io/)
+- [Netflix Open Connect](https://openconnect.netflix.com/)
+
+### Referências técnicas
+
+- [The Evolution of Cassandra Data Movement at Netflix](https://netflixtechblog.com/the-evolution-of-cassandra-data-movement-at-netflix-6e13329c80a1)
+- [Learning a Personalized Homepage](https://netflixtechblog.com/learning-a-personalized-homepage-aa8ec670359a)
+- [Simone — A Distributed Simulation Service](https://netflixtechblog.com/https-medium-com-netflix-techblog-simone-a-distributed-simulation-service-b2c85131ca1b)
 
 As tecnologias apresentadas correspondem às informações disponibilizadas oficialmente pela empresa sobre sua plataforma, infraestrutura e engenharia.
 
