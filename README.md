@@ -271,14 +271,11 @@ Os requisitos podem variar de acordo com o fabricante, modelo, sistema operacion
 
 Nesta **simulação acadêmica**, os integrantes abaixo representam a equipe responsável pelo desenvolvimento do aplicativo Netflix:
 
-1. **Luccas Machado Soares**
-2. **Nome completo do integrante 2**
-3. **Nome completo do integrante 3**
-4. **Nome completo do integrante 4**
-5. **Nome completo do integrante 5**
-6. **Nome completo do integrante 6**
-7. **Nome completo do integrante 7**
-8. **Nome completo do integrante 8**
+1.**Carlos Henrique Santos Moura de Castro**
+2. **Flavio Santana Siqueira**
+3. **Luccas Machado Soares**
+4. **Octávio Machado Soares**
+5. **Rafael Shoji Albuquerque Kano** 
 
 ---
 
